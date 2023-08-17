@@ -1,0 +1,20 @@
+body{
+
+
+}
+
+.lightmode{
+       background-color: bisque;
+    color: black;
+}
+
+
+.darkmode {
+       background-color: black;
+    color: white; 
+}
+
+.non-binary-mode {
+   background-color: grey;
+    color: whitesmoke;
+}
