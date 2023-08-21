@@ -1,20 +1,26 @@
-body{
-
-
+body {
 }
 
-.lightmode{
-       background-color: bisque;
-    color: black;
+.lightmode {
+  background-color: bisque;
+  color: black;
 }
-
 
 .darkmode {
-       background-color: black;
-    color: white; 
+  background-color: black;
+  color: white;
 }
 
 .non-binary-mode {
-   background-color: grey;
-    color: whitesmoke;
+  background-color: grey;
+  color: whitesmoke;
+}
+
+#posts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-box {
+  border: 3px solid black;
+  height: 400px;
 }
