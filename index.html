@@ -8,7 +8,7 @@
     <title>Rep.sommer</title>
   </head>
   <body>
-    <h1>Todo-List</h1>
+    <h1>Post-App</h1>
     <form id="form-todo" action="" method="post">
       <input type="text" name="todo" id="todo" />
       <button>done</button>
@@ -20,6 +20,21 @@
       <option value="dark">dark</option>
       <option value="non-binary">non-binary</option>
     </select>
+    <br />
+
+    <!-- CRUD APP NEDEN FOR -->
+    <form action="" id="post-form" method="POST">
+      <input type="text" name="title" id="title" placeholder="Write title..." />
+      <input type="text" name="caption" id="caption" placeholder="write a caption..." />
+      <input type="url" name="image" id="image" placeholder="link to an image..." />
+      <button>PUBLISH</button>
+    </form>
+
+    <section id="posts-grid">
+      <article class="grid-box" id="grid-right"></article>
+      <article class="grid-box" id="grid-center"></article>
+      <article class="grid-box" id="grid-left"></article>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
