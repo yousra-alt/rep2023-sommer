@@ -66,3 +66,5 @@ function changeMode() {
   localStorage.setItem("savedOption", option);
   console.log(option);
 }
+
+
